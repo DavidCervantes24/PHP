@@ -98,28 +98,6 @@ echo "EL RESULTADO DE X ES: ",round($y,3), "<br>";
 echo "z= (5*x + 7*y) / (a*x*y) <br>";
 $z=((5*$x) + (7*$y))/($a*$x*$y);
 echo "EL RESULTADO FINAL ES: ",round($z,3),"<br>";
- /*$x=5;
- $y=3;
- echo "Valores x ,y ",$x, " ",$y, " <br>";
- $x+=$y; //equivale a x=x+y
- echo "x: ",$x, "<br>";
- $x-=$y;//equivale a y=y-x
- echo "x: ",$y, "<br>";
-
- //operadores de incremento |++ |-- |--x |++x|
- $a=$x++;
- echo "a: ",$a, " x: ",$x, "<br>";
- $a=++$x; //++x o --x incrementara o disminuira 2
- echo "a: ",$a, " x: ",$x,"<br>";
-
- //operadores de pregunta if else con condicion and or
- if($a==$x and $x%2==1)
- {
-    echo "CUMPLE CONDICION <BR>";
- }
-echo "IMPRIME EL MAXIMO <br>";
- echo (max(2, 3, 12, 698, 0));*/
-
 ?>
     </body>
 </html>
